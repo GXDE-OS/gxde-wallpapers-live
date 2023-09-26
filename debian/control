@@ -1,16 +1,19 @@
-Source: deepin-wallpapers
+Source: debian-dde-wallpapers
 Section: utils
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
 Build-Depends: debhelper (>=9), dde-api
 Standards-Version: 3.9.6
 Homepage: https://www.deepin.org/
-#Vcs-Git: git://anonscm.debian.org/collab-maint/deepin-wallpapers.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/deepin-wallpapers.git
+#Vcs-Git: git://anonscm.debian.org/collab-maint/debian-dde-wallpapers.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/debian-dde-wallpapers.git
 
-Package: deepin-wallpapers
+Package: debian-dde-wallpapers
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: deepin-desktop-base (<< 2017.11.2)
+Conflicts: deepin-wallpapers
+Replaces: deepin-wallpapers
+Provides: deepin-wallpapers
 Description: dde wallpapers
- Default wallpapers for dde
+ Default wallpapers for debian-dde
