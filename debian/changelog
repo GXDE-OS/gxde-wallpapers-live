@@ -1,4 +1,4 @@
-debian-dde-wallpapers (1.7.18) unstable; urgency=medium
+debian-dde-wallpapers (1.7.19) unstable; urgency=medium
 
   * 修复安装后登录界面没有显示壁纸的问题
 
