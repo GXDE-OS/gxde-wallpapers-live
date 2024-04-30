@@ -1,10 +1,4 @@
 #!/usr/bin/make -f
 
-# www.deepin.org
-
-
 %:
-	dh $@ 
-
-
-
+	dh $@ --parallel
