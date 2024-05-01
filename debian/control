@@ -17,9 +17,3 @@ Breaks: deepin-desktop-base (<< 2017.11.2)
 Description: dde wallpapers
  Default wallpapers for dde
 
-Package: gxde-community-wallpapers
-Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: gxde-wallpapers(<< 1.7.5)
-Description: community wallpapers
- Community wallpapers for dde
