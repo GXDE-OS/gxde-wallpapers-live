@@ -1,6 +1,6 @@
-# Deepin Wallpapers
+# GXDE Wallpapers
 
-deepin-wallpapers provides wallpapers of dde
+gxde-wallpapers provides wallpapers of GXDE Desktop
 
 ## Dependencies
 You can also check the "Depends" provided in the `debian/control` file.
@@ -14,7 +14,7 @@ You can also check the "Build-Depends" provided in the `debian/control` file.
 
 1. Make sure you have installed all dependencies.
 ```bash
-sudo apt build-dep deepin-wallpapers
+sudo apt build-dep gxde-wallpapers
 ```
 
 2. Build
@@ -29,20 +29,6 @@ make
 ```bash
 sudo make install
 ```
-## Getting help
-
-Any usage issues can ask for help via
-
-* [Matrix](https://matrix.to/#/#deepin-community:matrix.org)
-* [WiKi](https://wiki.deepin.org)
-* [Forum](https://bbs.deepin.org)
-* [Developer Center](https://github.com/linuxdeepin/developer-center/issues) 
-
-## Getting involved
-
-We encourage you to report issues and contribute changes
-
-- [**Contribution guide for developers**](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en) 
 
 ## License
-deepin-wallpapers is licensed under [GPL-3.0-or-later](LICENSE).
+gxde-wallpapers is licensed under [GPL-3.0-or-later](LICENSE).

@@ -1,6 +1,6 @@
-# Deepin Wallpapers
+# GXDE Wallpapers
 
-deepin-wallpapers 为深度桌面环境提供壁纸
+gxde-wallpapers 为 GXDE 桌面环境提供壁纸
 
 ## 依赖
 请查看“debian/control”文件中提供的“Depends”。
@@ -14,7 +14,7 @@ deepin-wallpapers 为深度桌面环境提供壁纸
 
 1. 确保已经安装了所有的编译依赖
 ```bash
-sudo apt build-dep deepin-wallpapers
+sudo apt build-dep gxde-wallpapers
 ```
 
 2. 构建
@@ -29,19 +29,6 @@ make
 ```bash
 sudo make install
 ```
-## 帮助
-任何使用问题都可以通过以下方式寻求帮助：
-
-* [Matrix](https://matrix.to/#/#deepin-community:matrix.org)
-* [WiKi](https://wiki.deepin.org)
-* [官方论坛](https://bbs.deepin.org)
-* [开发者中心](https://github.com/linuxdeepin/developer-center/issues) 
-
-## 贡献指南
-
-我们鼓励您报告问题并做出更改
-
-- [开发者代码贡献指南](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers) 
 
 ## 开源许可证
-deepin-wallpapers 在 [GPL-3.0-or-later](LICENSE) 下发布。
+gxde-wallpapers 在 [GPL-3.0-or-later](LICENSE) 下发布。
