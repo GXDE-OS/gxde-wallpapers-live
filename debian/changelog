@@ -1,9 +1,9 @@
-gxde-wallpapers (1.7.32) UNRELEASED; urgency=medium
+gxde-wallpapers (1.7.33) UNRELEASED; urgency=medium
 
   * chore: adjust default wallpaper to 15.6
   * 修改部分壁纸
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 04 Jan 2025 12:03:29 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Fri, 25 Apr 2025 22:59:03 +0800
 
 gxde-wallpapers (1.7) stable; urgency=low
 
