@@ -8,21 +8,21 @@ Homepage: https://www.deepin.org/
 #Vcs-Git: git://anonscm.debian.org/collab-maint/gxde-wallpapers.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/gxde-wallpapers.git
 
-Package: gxde-wallpapers
+Package: gxde-wallpapers-live
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: debian-dde-wallpapers, deepin-wallpapers, deepin-wallpapers-nonfree
-Conflicts: debian-dde-wallpapers, deepin-wallpapers, deepin-wallpapers-nonfree
-Recommends: gxde-community-wallpapers
+Replaces:
+ debian-dde-wallpapers,
+ deepin-wallpapers, 
+ deepin-wallpapers-nonfree,
+ gxde-wallpapers,
+ gxde-community-wallpapers,
+Conflicts: 
+ debian-dde-wallpapers, 
+ deepin-wallpapers, 
+ deepin-wallpapers-nonfree,
+ gxde-wallpapers,
+ gxde-community-wallpapers,
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Description: dde wallpapers
  Default wallpapers for gxde
-
-Package: gxde-community-wallpapers
-Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: debian-dde-wallpapers, deepin-wallpapers, deepin-wallpapers-nonfree
-Replaces: debian-dde-wallpapers, deepin-wallpapers, deepin-wallpapers-nonfree
-Breaks: gxde-wallpapers(<< 1.7.5)
-Description: community wallpapers
- Community wallpapers for gxde
