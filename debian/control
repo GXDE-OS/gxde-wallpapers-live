@@ -17,6 +17,9 @@ Replaces:
  deepin-wallpapers-nonfree,
  gxde-wallpapers,
  gxde-community-wallpapers,
+Provides:
+ gxde-wallpapers,
+ gxde-community-wallpapers,
 Conflicts: 
  debian-dde-wallpapers, 
  deepin-wallpapers, 
